@@ -2,23 +2,68 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/png" href="./img/favicon-32x32.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
+
+    <title>The Watch Spot</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Epilogue:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
   </head>
   <body>
-    <load ="partials/header.html" />
-
-    <section>
-      <h1>Lorem ipsum dolor sit amet.</h1>
-      <!-- Path to images as from index.html file -->
-      <img src="./img/javascript.svg" alt="" />
-    </section>
-
-    <!-- Loads the specified .html file -->
-    <load ="partials/vite-promo.html" />
+    <!-- Navigation-->
+    <load scr="./partials/header.html" />
+    <!-- Navigation-->
+    <load scr="./partials/hero.html" />
+    <!-- About us-->
+    <load scr="./partials/about-us.html" />
+    <!-- Catalog-->
+    <load scr="./partials/catalog.html" />
+    <!-- New watches-->
+    <load scr="./partials/new-watches.html" />
+    <!-- Sale-->
+    <load scr="./partials/sale.html" />
+    <!-- Footer-->
+    <load scr="./partials/footer.html" />
+    <!-- Modal-->
+    <load scr="./partials/modal.html" />
 
     <script type="module" src="/main.js"></script>
+    <script type="module" src="./js/menu.js"></script>
+    <script>
+      const swiper = new Swiper('.hero-swiper', {
+        // Optional parameters
+        direction: 'horizontal',
+        loop: false,
+
+        // If we need pagination
+        pagination: {
+          el: '.slider-pagination',
+          // type: 'fraction',
+          type: 'custom',
+          renderCustom: function (swiper, current, total) {
+            return '0' + current + ' — ' + '0' + total;
+          },
+        },
+
+        // Navigation arrows
+        navigation: {
+          nextEl: '.slider-button-next',
+          prevEl: '.slider-button-prev',
+        },
+      });
+    </script>
   </body>
 </html>

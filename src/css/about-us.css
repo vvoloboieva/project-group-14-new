@@ -1,0 +1,85 @@
+.about-us-image {
+  max-width: 335px;
+  height: 365px;
+  background-image: url(/img/about-us-clock/watchspot.gif);
+  background-size: cover;
+  background-position: center;
+}
+.about-us-title {
+  color: var(--Dark-green);
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  margin-bottom: 40px;
+}
+.about-us-text {
+  color: var(--Black);
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+}
+.about-us-text.first {
+  margin-bottom: 20px;
+}
+
+.about-us-text.second {
+  margin-bottom: 40px;
+}
+.about-us {
+  background-color: var(--B-g-color-second);
+}
+@media screen and (min-width: 768px) {
+  .about-us-content {
+    display: flex;
+    gap: 40px;
+  }
+  .about-us-title {
+    display: block;
+    font-size: 40px;
+    line-height: 1.1;
+    margin-bottom: 0;
+  }
+  .about-us-paragraphs {
+    display: flex;
+    gap: 20px;
+  }
+  .about-us-text.first {
+    max-width: 220px;
+    margin-bottom: 40px;
+  }
+  .about-us-text.second {
+    max-width: 250px;
+    margin-bottom: 40px;
+  }
+  .about-us-image {
+    max-width: 704px;
+    height: 465px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .about-us-image {
+    max-width: 892px;
+    height: 500px;
+    margin-left: auto;
+  }
+  .about-us-content {
+    gap: 110px;
+  }
+  .about-us-paragraphs {
+    gap: 40px;
+  }
+  .about-us-text.first {
+    max-width: 439px;
+  }
+  .about-us-text.second {
+    max-width: 380px;
+    margin-right: 33px;
+  }
+}

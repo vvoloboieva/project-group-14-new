@@ -1,0 +1,162 @@
+
+section {
+  background-color: #ffffff;
+}
+
+.flex{
+  display: flex;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.photo-set:not(:last-child){
+  margin-bottom: 10px;
+}
+
+.last-clock{
+  margin-left: 20px;
+}
+
+.price{
+  display: flex;
+  align-items: center;
+  padding-bottom: 40px;
+}
+
+
+@media screen and (min-width: 375px) {
+  .container {
+    max-width: 375px;
+  }
+
+  .sale{
+    padding-top: 80px;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1.25;
+    color: var(--Black);
+  }
+
+  .details{
+    padding-bottom: 80px;
+  }
+
+  .title-product {
+    margin-bottom: 8px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1; 
+    letter-spacing: -0.02em;
+    color: var(--Black);
+  }
+
+  .text{
+    margin-bottom: 16px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: var(--Price-color);
+  }
+
+  .price-big{
+    margin-right: 8px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: -0.02em;
+    color: var(--Black);
+  }
+
+  .price-line{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: -0.02em;
+    text-decoration-line: line-through;
+    color: var(--Price-color);
+  }
+
+  .text-title{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: var(--Black);
+  }
+
+  .text-first{
+    padding-bottom: 40px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.01em;
+    color: var(--Price-color);
+  }
+
+  .text-second{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.01em;
+    color: var(--Price-color);
+  }
+
+  .text-title::before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    background-color: #141414;
+    height: 1px;
+    top: 0;
+    right: 0;
+  }
+  
+  .text-title {
+    color: #141414;
+    text-transform: uppercase;
+    position: relative;
+    width: 100%;
+    margin: 0 0 1rem;
+    padding-top: 8px;
+  }
+  .text-title::after {
+    content: ' ';
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    width: 1rem;
+    height: 1px;
+    background-color: #141414;
+  }
+
+  .text-title{
+    margin-bottom: 17px;
+  }
+  
+  
+  
+}
+
+ /* TABLET */
+
+ @media screen and (min-width:768px){
+   .container{
+    max-width: 768px;
+   }
+   
+
+
+ }
+
+ /* END TABLET */
