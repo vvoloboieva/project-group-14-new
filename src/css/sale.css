@@ -27,6 +27,10 @@ section {
     max-width: 375px;
   }
 
+  .for-tab {
+    margin: 0 auto;
+  }
+
   .sale {
     padding-top: 80px;
     font-weight: 600;
@@ -60,6 +64,7 @@ section {
   }
 
   .price-big {
+    font-family: 'Neue Montreal';
     margin-right: 8px;
     font-style: normal;
     font-weight: 400;
@@ -150,6 +155,88 @@ section {
     max-width: 768px;
     height: auto;
   }
+
+  .for-tab {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .sale {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+  }
+
+  .title-product {
+    width: 572px;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 1.05;
+    letter-spacing: -0.02em;
+  }
+
+  .details {
+    width: 572px;
+  }
+
+  .description {
+    width: 572px;
+  }
 }
 
 /* END TABLET */
+
+/* DESKTOP */
+@media screen and (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+
+  .for-tab {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 80px;
+    padding-bottom: 160px;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  .flex {
+    padding: 0;
+  }
+
+  .sale {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+  }
+
+  .title-product {
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 1.05;
+    letter-spacing: -0.02em;
+    width: 369px;
+  }
+
+  .details {
+    padding-bottom: 0;
+    width: 369px;
+  }
+
+  .description {
+    width: 369px;
+  }
+
+  .desktop {
+    margin-left: 40px;
+  }
+}
+
+/* ////// */
