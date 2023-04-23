@@ -200,6 +200,10 @@
     transform: translate(-50%, -50%);
   }
 
+  .price{
+    padding-bottom: 0;
+  }
+
   .section-form {
     z-index: 100;
     top: 0;
@@ -328,6 +332,10 @@
 
   .clock-block {
     height: 508px;
+  }
+
+  .price{
+    padding-bottom: 0;
   }
 
   .section-form {
