@@ -1,35 +1,33 @@
-
 section {
   background-color: #ffffff;
 }
 
-.flex{
+.flex {
   display: flex;
   align-items: center;
   padding: 40px 0;
 }
 
-.photo-set:not(:last-child){
+.photo-set:not(:last-child) {
   margin-bottom: 10px;
 }
 
-.last-clock{
+.last-clock {
   margin-left: 20px;
 }
 
-.price{
+.price {
   display: flex;
   align-items: center;
   padding-bottom: 40px;
 }
-
 
 @media screen and (min-width: 375px) {
   .container {
     max-width: 375px;
   }
 
-  .sale{
+  .sale {
     padding-top: 80px;
     font-weight: 600;
     font-size: 32px;
@@ -37,7 +35,7 @@ section {
     color: var(--Black);
   }
 
-  .details{
+  .details {
     padding-bottom: 80px;
   }
 
@@ -46,12 +44,12 @@ section {
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
-    line-height: 1; 
+    line-height: 1;
     letter-spacing: -0.02em;
     color: var(--Black);
   }
 
-  .text{
+  .text {
     margin-bottom: 16px;
     font-style: normal;
     font-weight: 400;
@@ -61,7 +59,7 @@ section {
     color: var(--Price-color);
   }
 
-  .price-big{
+  .price-big {
     margin-right: 8px;
     font-style: normal;
     font-weight: 400;
@@ -71,7 +69,7 @@ section {
     color: var(--Black);
   }
 
-  .price-line{
+  .price-line {
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -81,7 +79,7 @@ section {
     color: var(--Price-color);
   }
 
-  .text-title{
+  .text-title {
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -91,7 +89,7 @@ section {
     color: var(--Black);
   }
 
-  .text-first{
+  .text-first {
     padding-bottom: 40px;
     font-style: normal;
     font-weight: 400;
@@ -101,7 +99,7 @@ section {
     color: var(--Price-color);
   }
 
-  .text-second{
+  .text-second {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -120,7 +118,7 @@ section {
     top: 0;
     right: 0;
   }
-  
+
   .text-title {
     color: #141414;
     text-transform: uppercase;
@@ -140,23 +138,18 @@ section {
     background-color: #141414;
   }
 
-  .text-title{
+  .text-title {
     margin-bottom: 17px;
   }
-  
-  
-  
 }
 
- /* TABLET */
+/* TABLET */
 
- @media screen and (min-width:768px){
-   .container{
+@media screen and (min-width: 768px) {
+  .container {
     max-width: 768px;
-   }
-   
+    height: auto;
+  }
+}
 
-
- }
-
- /* END TABLET */
+/* END TABLET */
