@@ -10,39 +10,25 @@
 .footer-box {
   display: flex;
   flex-wrap: wrap;
-  gap: 80px;
-}
-
-.first-box {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 40px;
+  justify-content: space-between;
 }
 
 .footer-main {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  gap: 20px;
-}
-
-.footer-nav-box {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
+  margin-bottom: 40px;
 }
 
 .footer-nav {
   display: flex;
   flex-wrap: nowrap;
-  gap: 136px;
 }
 
 .footer-logo {
   display: block;
   width: 40px;
   height: 40px;
-  /* outline: 2px solid tomato; */
   margin-bottom: 40px;
 }
 
@@ -62,7 +48,6 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 1.3;
-  /* text-transform: uppercase; */
   color: #FFFFFF;
 }
 
@@ -84,8 +69,10 @@
 
 .footer-social {
   display: flex;
+  height: 40px;
   flex-wrap: nowrap;
   gap: 14px;
+  margin-bottom: 80px;
 }
 
 .footer-social-item {
@@ -109,13 +96,13 @@
   height: 24px;
 }
 
-.footer-second-box {
+.footer-copyright {
   display: flex;
   flex-wrap: wrap;
   gap: 14px;
 }
 
-.footer-copyright {
+.footer-rights {
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -149,16 +136,8 @@
     padding-top: 80px;
   }
 
-  .footer-box {
-    gap: 152px;
-  }
-
-  .footer-nav {
-    gap: 142px;
-  }
-
-  .first-box {
-    gap: 142px;
+  .footer-main {
+    margin-bottom: 152px;
   }
 
   .footer-logo {
@@ -172,6 +151,10 @@
     font-size: 18px;
     line-height: 1.33;
     text-transform: uppercase;
+  }
+
+  .footer-address {
+    width: 180px;
   }
 
   .footer-nav-item {
@@ -193,6 +176,8 @@
 
   .footer-social {
     gap: 16px;
+    height: 44px;
+    margin-bottom: 0;
   }
 
   .footer-social-item {
@@ -205,14 +190,14 @@
     height: 28px;
   }
 
-  .footer-second-box {
+  .footer-copyright {
     display: flex;
-    flex-wrap: nowrap;
+    width: 704px;
+    justify-content: space-between;
     align-items: center;
-    gap: 200px;
   }
 
-  .footer-copyright {
+  .footer-rights {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -233,7 +218,7 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 1.3;
-    /* text-align: right; */
+    text-align: right;
     letter-spacing: -0.02em;
     color: var(--footer-agreements-color);
   }
@@ -246,20 +231,11 @@
     padding-bottom: 32px;
   }
 
-  .footer-box {
-    gap: 174px;
+  .footer-main {
+    margin-bottom: 174px;
   }
 
-  .footer-nav {
-    gap: 355px;
+  .footer-copyright {
+    width: 1216px;
   }
-
-  .first-box {
-    gap: 400px;
-  }
-
-  .footer-second-box {
-    gap: 680px;
-  }
-
 }
