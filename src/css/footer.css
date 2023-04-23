@@ -96,6 +96,16 @@
   height: 24px;
 }
 
+.footer-social-link:is(:hover, :focus) {
+  background-color: var(--Main-color);
+  border: 1px solid var(--Main-color);
+  fill: var(--Dark-green);
+}
+
+.footer-social-link {
+  transition: background-color var(--transition-dur);
+}
+
 .footer-copyright {
   display: flex;
   flex-wrap: wrap;
