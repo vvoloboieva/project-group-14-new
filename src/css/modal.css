@@ -56,10 +56,10 @@
 
 
 /* PHONE */
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 375px) {
   .form-container {
     max-width: 375px;
-    position: absolute;
+    position: fixed;
     padding-left: 30px;
     padding-right: 30px;
     padding-bottom: 40px;
@@ -186,7 +186,7 @@
 @media screen and (min-width: 768px) {
   .form-container {
     max-width: 768px;
-    position: absolute;
+    position: fixed;
     display: flex;
     padding-left: 30px;
     padding-right: 30px;
@@ -308,7 +308,7 @@
 @media screen and (min-width: 1280px) {
   .form-container {
     max-width: 1280px;
-    position: absolute;
+    position: fixed;
     display: flex;
     padding-left: 30px;
     padding-right: 30px;
