@@ -23,7 +23,7 @@
   --B-g-color-second: #efefef;
   --footer-agreements-color: #c6cdd1;
   --transition-dur: 500ms cubic-bezier(0.4, 0, 0.2, 1);
-  --hover-focus-color: rgba(251, 251, 251, 0.5)
+  --hover-focus-color: rgba(251, 251, 251, 0.5);
 }
 
 html {
@@ -32,7 +32,6 @@ html {
 
 body {
   color: var(--Main-color);
-  background-color: var(--Black);
   font-family: 'Epilogue', sans-serif;
   font-size: 14px;
   line-height: 18px;
