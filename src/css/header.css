@@ -27,11 +27,14 @@
   font-size: 12px;
   line-height: 1;
   letter-spacing: -0.03em;
-  color: #ffffff;
+  color: var(--Main-color);
+  display: flex;
+  align-items: center;
+  gap: 4px;
 }
 
 .burger-icon {
-  fill: #ffffff;
+  fill: var(--Main-color);
 }
 
 .header-nav {
@@ -48,7 +51,7 @@
 .mob-menu {
   width: 100%;
   height: 100%;
-  background-color: #1e2827;
+  background-color: var(--Dark-green);
   top: 0;
   left: 0;
   position: fixed;
@@ -78,7 +81,7 @@
 }
 
 .mob-nav-list {
-  color: #ffffff;
+  color: var(--Main-color);
   font-family: 'Epilogue';
   font-size: 14px;
   line-height: 1.29;
@@ -124,7 +127,7 @@
     line-height: 1.3;
     text-align: center;
     text-transform: uppercase;
-    color: #ffffff;
+    color: var(--Main-color);
   }
 
   .main-container {
@@ -139,7 +142,7 @@
     line-height: 1.3;
     text-align: center;
     text-transform: uppercase;
-    color: #ffffff;
+    color: var(--Main-color);
     padding: 18px 35px;
     display: flex;
     background-color: #1e2827;
