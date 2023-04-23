@@ -100,7 +100,10 @@
 
 @media screen and (min-width: 768px) {
   .main-container {
-    padding: 20px 15px;
+    max-width: 704px;
+    padding: 20px 0;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .mob-menu {
@@ -154,7 +157,7 @@
 
 @media screen and (min-width: 1280px) {
   .main-container {
-    max-width: 1280px;
+    max-width: 1176px;
     margin-right: auto;
     margin-left: auto;
   }
