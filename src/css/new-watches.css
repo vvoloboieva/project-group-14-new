@@ -17,9 +17,8 @@
   max-width: 448px;
 }
 
-.new-watches-section {
-  padding: 128px 0px;
-  background-color: var(--B-g-color-second);
+.new-watches-section.section {
+  background-color: var(--Main-color);
 }
 
 .new-watches-text {
