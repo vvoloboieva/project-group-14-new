@@ -125,6 +125,10 @@
     margin-left: auto;
   }
 
+  .header-logo-name {
+    font-size: 15px;
+  }
+
   .mob-menu {
     display: none;
   }
