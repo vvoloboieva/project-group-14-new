@@ -21,8 +21,17 @@ section {
   flex-direction: column;
   margin-bottom: 40px;
 }
-.catalog-list-item {
-  max-width: 336px;
+
+@media screen and (max-width: 374px) {
+  .catalog-list-item {
+    max-width: 336px;
+  }
+}
+
+@media screen and (min-width: 375px) {
+  .catalog-list-item {
+    width: 336px;
+  }
 }
 .catalog-top-div {
   display: flex;
