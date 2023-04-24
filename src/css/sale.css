@@ -12,17 +12,13 @@ section {
   margin-bottom: 10px;
 }
 
-.last-clock {
-  margin-left: 20px;
-}
-
 .price {
   display: flex;
   align-items: center;
   padding-bottom: 40px;
 }
 
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 320px) {
   .container {
     max-width: 375px;
   }
@@ -30,7 +26,10 @@ section {
   .for-tab {
     margin: 0 auto;
   }
-
+  .big-clock {
+    width: 235px;
+    margin-left: 20px;
+  }
   .sale {
     padding-top: 80px;
     font-weight: 600;
@@ -146,6 +145,9 @@ section {
   .text-title {
     margin-bottom: 17px;
   }
+  .photo-set {
+    width: 80px;
+  }
 }
 
 /* TABLET */
@@ -185,6 +187,13 @@ section {
 
   .description {
     width: 572px;
+  }
+  .big-clock {
+    margin-left: 20px;
+    width: 406px;
+  }
+  .photo-set {
+    width: 146px;
   }
 }
 
@@ -236,6 +245,13 @@ section {
 
   .desktop {
     margin-left: 40px;
+  }
+  .big-clock {
+    margin-left: 20px;
+    width: 406px;
+  }
+  .photo-set {
+    width: 146px;
   }
 }
 
