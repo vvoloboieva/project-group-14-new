@@ -33,6 +33,10 @@
   gap: 4px;
 }
 
+.logo-text {
+  margin: auto;
+}
+
 .burger-icon {
   fill: var(--Main-color);
 }
