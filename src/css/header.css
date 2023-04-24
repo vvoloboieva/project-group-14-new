@@ -23,17 +23,22 @@
 }
 
 .header-logo-name {
-  font-family: 'Epilogue';
-  font-size: 12px;
-  line-height: 1;
-  letter-spacing: -0.03em;
-  color: var(--Main-color);
   display: flex;
   align-items: center;
   gap: 4px;
 }
 
+.logo-svg {
+  width: 14px;
+  height: 14px;
+}
+
 .logo-text {
+  font-family: 'Epilogue';
+  font-size: 12px;
+  line-height: 1;
+  letter-spacing: -0.03em;
+  color: var(--Main-color);
   margin: auto;
 }
 
@@ -156,6 +161,15 @@
   .main-container {
     display: flex;
     align-items: center;
+  }
+
+  .logo-svg {
+    width: 19px;
+    height: 19px;
+  }
+
+  .logo-text {
+    font-size: 15px;
   }
 
   .header-button {
