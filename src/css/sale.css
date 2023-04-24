@@ -9,7 +9,7 @@ section {
 }
 
 .photo-set:not(:last-child) {
-  margin-bottom: 10px;
+  gap: 10px;
 }
 
 .price {
