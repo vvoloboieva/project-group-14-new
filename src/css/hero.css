@@ -9,7 +9,7 @@
 
 .hero {
   background-color: var(--Black);
-  padding-top: 69px;
+  padding-top: 49px;
   padding-bottom: 40px;
 }
 
@@ -91,6 +91,10 @@
 }
 
 @media screen and (min-width: 768px) {
+  .hero {
+    padding-top: 60px;
+  }
+
   .slide-tablet {
     display: block;
   }
