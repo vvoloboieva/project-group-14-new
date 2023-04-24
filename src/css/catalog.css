@@ -22,14 +22,14 @@ section {
   margin-bottom: 40px;
 }
 .catalog-list-item {
-  width: 336px;
+  max-width: 336px;
 }
 .catalog-top-div {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 14px;
-  width: 336px;
+  max-width: 336px;
   position: relative;
   height: 360px;
   overflow: hidden;
