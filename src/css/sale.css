@@ -42,10 +42,6 @@
     color: var(--Black);
   }
 
-  .details {
-    padding-bottom: 80px;
-  }
-
   .title-product {
     margin-bottom: 8px;
     font-style: normal;
@@ -187,6 +183,9 @@
     letter-spacing: -0.02em;
   }
 
+  .price{
+    margin-bottom: 40px;
+  }
 
   .details {
     width: 572px;
@@ -216,11 +215,14 @@
     max-width: 1280px;
   }
 
+  .sale-section{
+    padding: 160px 0;
+  }
+
   .for-tab {
     display: flex;
     flex-wrap: wrap;
-    padding-top: 80px;
-    padding-bottom: 160px;
+    margin-top: 80px;
     align-items: flex-start;
     justify-content: center;
   }
@@ -228,6 +230,7 @@
 
   .flex {
     padding: 0;
+    margin: 0;
   }
 
   .sale {
