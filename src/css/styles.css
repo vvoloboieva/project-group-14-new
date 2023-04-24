@@ -42,9 +42,12 @@ body {
   margin: 0 auto;
   max-width: 375px;
 }
+
 .section {
   padding: 40px 0;
+  background-color: var(--B-g-color);
 }
+
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
@@ -82,9 +85,9 @@ body {
   src: url('NeueMontreal-Regular.eot');
   src: local('Neue Montreal Regular'), local('NeueMontreal-Regular'),
     url('../fonts/NeueMontreal-Regular.eot?#iefix') format('embedded-opentype'),
-    url('../fontsNeueMontreal-Regular.woff2') format('woff2'),
-    url('../fontsNeueMontreal-Regular.woff') format('woff'),
-    url('../fontsNeueMontreal-Regular.ttf') format('truetype');
+    url('../fonts/NeueMontreal-Regular.woff2') format('woff2'),
+    url('../fonts/NeueMontreal-Regular.woff') format('woff'),
+    url('../fonts/NeueMontreal-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }

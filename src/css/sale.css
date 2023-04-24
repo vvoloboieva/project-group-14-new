@@ -1,11 +1,8 @@
-section {
-  background-color: #ffffff;
-}
 
 .flex {
   display: flex;
   align-items: center;
-  padding: 40px 0;
+  margin: 40px 0;
 }
 
 .photo-set:not(:last-child) {
@@ -23,6 +20,10 @@ section {
     max-width: 375px;
   }
 
+  .sale-section {
+    padding-bottom: 80px;
+    padding-top: 80px;
+  }
   .for-tab {
     margin: 0 auto;
   }
@@ -30,8 +31,11 @@ section {
     width: 235px;
     margin-left: 20px;
   }
+  .last-clock {
+    height: 350px;
+  }
+
   .sale {
-    padding-top: 80px;
     font-weight: 600;
     font-size: 32px;
     line-height: 1.25;
@@ -195,6 +199,9 @@ section {
     margin-left: 20px;
     width: 406px;
   }
+  .last-clock {
+    height: 614px;
+  }
   .photo-set {
     width: 146px;
   }
@@ -259,6 +266,9 @@ section {
   .big-clock {
     margin-left: 20px;
     width: 406px;
+  }
+  .last-clock {
+    height: 614px;
   }
   .photo-set {
     width: 146px;
