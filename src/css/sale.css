@@ -1,15 +1,14 @@
-section {
-  background-color: #ffffff;
-}
 
 .flex {
   display: flex;
   align-items: center;
-  padding: 40px 0;
+  margin: 40px 0;
 }
 
-.photo-set:not(:last-child) {
-  margin-bottom: 10px;
+.photo-item {
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
 }
 
 .price {
@@ -23,6 +22,10 @@ section {
     max-width: 375px;
   }
 
+  .sale-section {
+    padding-bottom: 80px;
+    padding-top: 80px;
+  }
   .for-tab {
     margin: 0 auto;
   }
@@ -30,16 +33,15 @@ section {
     width: 235px;
     margin-left: 20px;
   }
+  .last-clock {
+    height: 350px;
+  }
+
   .sale {
-    padding-top: 80px;
     font-weight: 600;
     font-size: 32px;
     line-height: 1.25;
     color: var(--Black);
-  }
-
-  .details {
-    padding-bottom: 80px;
   }
 
   .title-product {
@@ -183,6 +185,9 @@ section {
     letter-spacing: -0.02em;
   }
 
+  .price{
+    margin-bottom: 40px;
+  }
 
   .details {
     width: 572px;
@@ -194,6 +199,9 @@ section {
   .big-clock {
     margin-left: 20px;
     width: 406px;
+  }
+  .last-clock {
+    height: 614px;
   }
   .photo-set {
     width: 146px;
@@ -209,11 +217,14 @@ section {
     max-width: 1280px;
   }
 
+  .sale-section{
+    padding: 160px 0;
+  }
+
   .for-tab {
     display: flex;
     flex-wrap: wrap;
-    padding-top: 80px;
-    padding-bottom: 160px;
+    margin-top: 80px;
     align-items: flex-start;
     justify-content: center;
   }
@@ -221,6 +232,7 @@ section {
 
   .flex {
     padding: 0;
+    margin: 0;
   }
 
   .sale {
@@ -259,6 +271,9 @@ section {
   .big-clock {
     margin-left: 20px;
     width: 406px;
+  }
+  .last-clock {
+    height: 614px;
   }
   .photo-set {
     width: 146px;
