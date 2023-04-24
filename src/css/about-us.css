@@ -31,9 +31,7 @@
 .about-us-text.second {
   margin-bottom: 40px;
 }
-.about-us {
-  background-color: var(--B-g-color-second);
-}
+
 @media screen and (min-width: 768px) {
   .about-us-content {
     display: flex;
