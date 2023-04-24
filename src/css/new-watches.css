@@ -1,3 +1,65 @@
-section {
-  background-color: aliceblue;
+.new-watches-header{
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 1.1;
+  color: rgba(20, 20, 20, 0.4);
+
+}
+
+.new-watches-text{
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 40px;
+  color: #141414;
+  max-width: 448px;
+}
+
+.new-watches-section{
+  padding: 128px 0px;
+  background-color: #FBFBFB;;
+}
+
+.new-watches-text{
+  margin-top: 8px;
+  margin-bottom: 40px;
+}
+
+.new-watches-list{
+  display: block;
+  
+
+}
+
+
+
+.new-watches-item{
+  width: 334px;
+  height: 260px;
+  display: block;
+}
+
+@media screen and (max-width: 767px) {
+
+  .new-watches-list :first-child{
+    margin-bottom: 20px;
+  }
+
+  
+
+}
+
+
+@media screen and (min-width: 768px) {
+
+  .new-watches-list{
+    display: flex;
+    gap: 20px;
+    
+  
+  }
+
 }

@@ -38,7 +38,7 @@
   font-size: 14px;
   line-height: 1.3;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-bottom: 20px;
 }
 
@@ -48,7 +48,7 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 1.3;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .footer-nav-list {
@@ -64,7 +64,12 @@
   line-height: 1.3;
   letter-spacing: -0.02em;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
+  position: relative;
+}
+
+.footer-nav-item a:hover {
+  text-decoration: underline;
 }
 
 .footer-social {
@@ -94,6 +99,16 @@
 .footer-social-icon {
   width: 24px;
   height: 24px;
+}
+
+.footer-social-link:is(:hover, :focus) {
+  background-color: var(--Main-color);
+  border: 1px solid var(--Main-color);
+  fill: var(--Dark-green);
+}
+
+.footer-social-link {
+  transition: background-color var(--transition-dur);
 }
 
 .footer-copyright {
@@ -129,9 +144,7 @@
   color: var(--footer-agreements-color);
 }
 
-
 @media screen and (min-width: 768px) {
-
   .footer {
     padding-top: 80px;
   }
@@ -225,7 +238,6 @@
 }
 
 @media screen and (min-width: 1280px) {
-
   .footer {
     padding-top: 104px;
     padding-bottom: 32px;

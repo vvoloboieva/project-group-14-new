@@ -1,6 +1,4 @@
-.form-container {
-  display: none;
-}
+
 
 /* MAIN */
 
@@ -13,6 +11,17 @@
     0px 0px 18.1704px rgba(0, 0, 0, 0.0196296),
     0px 0px 8.77546px rgba(0, 0, 0, 0.012037);
   z-index: 100;
+}
+
+.section-form{
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(46, 47, 66, 0.4);
+    transition: opacity var(--timing-cubic);
 }
 
 .name-clock {
@@ -56,7 +65,7 @@
 
 
 /* PHONE */
-@media screen and (min-width: 375px) {
+
   .form-container {
     max-width: 375px;
     position: fixed;
@@ -69,15 +78,7 @@
     transform: translate(-50%, -50%);
   }
 
-  .section-form {
-    z-index: 100;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    background-color: rgba(46, 47, 66, 0.4);
-    transition: opacity var(--timing-cubic);
-  }
+
 
   .l-l {
     display: flex;
@@ -178,7 +179,7 @@
     width: 15px;
     height: 15px;
   }
-}
+
 
 /* ////////////PHONE////////////////// */
 
@@ -197,6 +198,10 @@
     width: 744px;
     height: 600px;
     transform: translate(-50%, -50%);
+  }
+
+  .price{
+    padding-bottom: 0;
   }
 
   .section-form {
@@ -327,6 +332,10 @@
 
   .clock-block {
     height: 508px;
+  }
+
+  .price{
+    padding-bottom: 0;
   }
 
   .section-form {
