@@ -5,8 +5,10 @@
   margin: 40px 0;
 }
 
-.photo-set:not(:last-child) {
-  margin-bottom: 10px;
+.photo-item {
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
 }
 
 .price {
