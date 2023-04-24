@@ -19,7 +19,7 @@
 
 .new-watches-section {
   padding: 80px 0px 0px 0px;
-  background-color: white;
+  background-color: (--Main-color);
 }
 
 .new-watches-text {
