@@ -33,9 +33,9 @@
     width: 235px;
     margin-left: 20px;
   }
-  .last-clock {
+  /* .last-clock {
     height: 350px;
-  }
+  } */
 
   .sale {
     font-weight: 600;
@@ -268,9 +268,8 @@
   .last-clock {
     height: 614px;
   }
-  
 
-  .mini-photo{
+  .mini-photo {
     width: 146px;
     height: 146px;
   }
