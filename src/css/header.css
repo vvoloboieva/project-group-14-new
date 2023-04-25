@@ -80,11 +80,16 @@
 .close-button {
   background-color: transparent;
   border: 0;
+  width: 24px;
+  height: 24px;
 }
 
 .burger-close-icon {
   stroke: rgba(255, 255, 255, 1);
+  width: 14px;
+  height: 14px;
 }
+
 
 .mob-menu-nav {
   text-align: center;
