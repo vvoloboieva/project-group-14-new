@@ -156,6 +156,11 @@
   .catalog-btn {
     padding: 18px 35px;
   }
+
+  .catalog-btn:hover,
+  .catalog-btn:focus {
+    padding: 17px 34px;
+  }
 }
 
 .catalog-title {
