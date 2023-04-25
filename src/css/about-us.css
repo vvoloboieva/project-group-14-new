@@ -44,9 +44,12 @@
     margin-bottom: 0;
   }
   .about-us-paragraphs {
+    margin: 0;
     display: flex;
     gap: 20px;
     margin-bottom: 40px;
+    display: flex;
+    flex-direction: row;
   }
   .about-us-text.first {
     max-width: 220px;
@@ -72,7 +75,11 @@
     gap: 110px;
   }
   .about-us-paragraphs {
+    margin: 0;
     gap: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: row;
   }
   .about-us-text.first {
     max-width: 439px;
