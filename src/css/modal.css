@@ -24,14 +24,27 @@ body.data-modal-open {
     transition: opacity var(--timing-cubic);
 }
 
+.clock-block {
+  margin-bottom: 40px;
+}
+
+.clock {
+  width: 276px;
+  margin: 0 auto 14px;
+}
+
 .name-clock {
-  max-width: 276px;
+  max-width: 256px;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.29;
   letter-spacing: -0.02em;
   color: var(--Black);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 4px;
 }
 
 .price-modal {
@@ -62,15 +75,14 @@ body.data-modal-open {
 }
 
   .form-container {
-    max-width: 335px;
+    width: 335px;
     position: absolute;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-bottom: 40px;
+    padding: 40px 20px;
     margin: 10% auto;
     left: 50%;
     overflow: auto;
     transform: translateX(-50%);
+    gap: 20px;
   }
 
 
@@ -88,10 +100,6 @@ body.data-modal-open {
 
   .form label {
     margin-bottom: 12px;
-  }
-
-  .clock {
-    margin: 40px auto 14px;
   }
 
   .i-t {
@@ -120,10 +128,6 @@ body.data-modal-open {
     border-radius: 8px;
   }
 
-  .form {
-    margin-top: 40px;
-  }
-
   .form-btn {
     padding: 18px 116px;
     width: 100%;
@@ -148,54 +152,37 @@ body.data-modal-open {
   .close-btn {
     display: flex;
     position: absolute;
-    top: 15px;
-    right: 15px;
+    top: 12px;
+    right: 12px;
     justify-content: center;
     align-items: center;
     padding: 0;
-
     width: 20px;
     height: 20px;
-
-
-
     border: transparent;
     background-color: transparent;
   }
 
 
   .close-form{
-    position: absolute;
-
-  
-
+    /* position: absolute; */
     stroke: black;
-    width: 15px;
-    height: 15px;
+    width: 10px;
+    height: 10px;
   }
 
-
-/* ////////////PHONE////////////////// */
 
 /* TABLET */
 @media screen and (min-width: 768px) {
   .form-container {
-    max-width: 768px;
+    width: 744px;
     position: fixed;
     display: flex;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-bottom: 40px;
+    padding: 40px;
     margin: 0 auto;
     left: 50%;
     top: 50%;
-    width: 744px;
-    height: 600px;
     transform: translate(-50%, -50%);
-  }
-
-  .price{
-    padding-bottom: 0;
   }
 
   .section-form {
@@ -249,11 +236,6 @@ body.data-modal-open {
     border-radius: 8px;
   }
 
-  .form {
-    margin-top: 40px;
-    margin-left: 20px;
-  }
-
   .form-btn {
     padding: 18px 116px;
     width: 368px;
@@ -279,20 +261,21 @@ body.data-modal-open {
   .close-btn {
     display: flex;
     position: absolute;
-    top: 15px;
-    right: 15px;
+    top: 20px;
+    right: 20px;
     justify-content: center;
     align-items: center;
     padding: 0;
-
+    width: 24px;
+    height: 24px;
     border: transparent;
     background-color: transparent;
   }
 
   .close-form {
     stroke: black;
-    width: 20px;
-    height: 20px;
+    width: 12px;
+    height: 12px;
   }
 }
 
@@ -301,30 +284,15 @@ body.data-modal-open {
 /* DESKTOP */
 @media screen and (min-width: 1280px) {
   .form-container {
-    max-width: 1280px;
+    width: 904px;
     position: fixed;
     display: flex;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-bottom: 40px;
+    padding: 40px;
     margin: 0 auto;
     left: 50%;
     top: 50%;
-    width: 904px;
-    height: 600px;
     transform: translate(-50%, -50%);
-  }
-
-  .form-block {
-    height: 508px;
-  }
-
-  .clock-block {
-    height: 508px;
-  }
-
-  .price-modal{
-    padding-bottom: 0;
+    gap: 40px;
   }
 
   .section-form {
@@ -352,11 +320,6 @@ body.data-modal-open {
     margin-bottom: 12px;
   }
 
-  .clock {
-    margin: 0 auto;
-    padding-top: 66px;
-  }
-
   .i-t {
     color: rgba(20, 20, 20, 0.5);
     width: 508px;
@@ -377,15 +340,10 @@ body.data-modal-open {
     resize: none;
     padding-top: 12px;
     padding-left: 16px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     color: rgba(20, 20, 20, 0.5);
     border: 1px solid rgba(20, 20, 20, 0.5);
     border-radius: 8px;
-  }
-
-  .form {
-    margin-top: 40px;
-    margin-left: 20px;
   }
 
   .form-btn {
@@ -410,24 +368,6 @@ body.data-modal-open {
     margin-left: 2px;
   }
 
-  .close-btn {
-    display: flex;
-    position: absolute;
-    top: 15px;
-    right: 15px;
-    justify-content: center;
-    align-items: center;
-    padding: 0;
-
-    border: transparent;
-    background-color: transparent;
-  }
-
-  .close-form {
-    stroke: black;
-    width: 20px;
-    height: 20px;
-  }
 }
 
 /* ///DESKTOP/// */
