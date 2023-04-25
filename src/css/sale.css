@@ -268,8 +268,11 @@
   .last-clock {
     height: 614px;
   }
-  .photo-set {
+  
+
+  .mini-photo{
     width: 146px;
+    height: 146px;
   }
 }
 
