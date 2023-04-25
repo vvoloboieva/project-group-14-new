@@ -13,7 +13,6 @@
   font-size: 32px;
   line-height: 1.25;
   letter-spacing: -0.02em;
-  margin-bottom: 40px;
 }
 .about-us-text {
   color: var(--Black);
@@ -24,12 +23,13 @@
   line-height: 1.29;
   letter-spacing: -0.02em;
 }
-.about-us-text.first {
-  margin-bottom: 20px;
-}
 
-.about-us-text.second {
-  margin-bottom: 40px;
+
+.about-us-paragraphs{
+  margin: 40px 0;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 @media screen and (min-width: 768px) {
