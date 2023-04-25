@@ -23,7 +23,7 @@
   --B-g-color-second: #efefef;
   --footer-agreements-color: #c6cdd1;
   --transition-dur: 500ms cubic-bezier(0.4, 0, 0.2, 1);
-  --hover-focus-color: rgba(251, 251, 251, 0.5)
+  --hover-focus-color: rgba(251, 251, 251, 0.5);
 }
 
 html {
@@ -32,7 +32,6 @@ html {
 
 body {
   color: var(--Main-color);
-  background-color: var(--Black);
   font-family: 'Epilogue', sans-serif;
   font-size: 14px;
   line-height: 18px;
@@ -43,9 +42,16 @@ body {
   margin: 0 auto;
   max-width: 375px;
 }
+
 .section {
   padding: 40px 0;
+  background-color: var(--B-g-color);
 }
+
+.no-scroll {
+  overflow: hidden;
+}
+
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
@@ -83,9 +89,9 @@ body {
   src: url('NeueMontreal-Regular.eot');
   src: local('Neue Montreal Regular'), local('NeueMontreal-Regular'),
     url('../fonts/NeueMontreal-Regular.eot?#iefix') format('embedded-opentype'),
-    url('../fontsNeueMontreal-Regular.woff2') format('woff2'),
-    url('../fontsNeueMontreal-Regular.woff') format('woff'),
-    url('../fontsNeueMontreal-Regular.ttf') format('truetype');
+    url('../fonts/NeueMontreal-Regular.woff2') format('woff2'),
+    url('../fonts/NeueMontreal-Regular.woff') format('woff'),
+    url('../fonts/NeueMontreal-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }

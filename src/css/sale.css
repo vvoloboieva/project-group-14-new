@@ -1,44 +1,47 @@
-
-section {
-  background-color: #ffffff;
-}
-
-.flex{
+.flex {
   display: flex;
   align-items: center;
-  padding: 40px 0;
+  margin: 40px 0;
 }
 
-.photo-set:not(:last-child){
-  margin-bottom: 10px;
+.photo-item {
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
 }
 
-.last-clock{
-  margin-left: 20px;
-}
-
-.price{
+.price {
   display: flex;
   align-items: center;
   padding-bottom: 40px;
 }
 
-
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 320px) {
   .container {
     max-width: 375px;
   }
 
-  .sale{
+  .sale-section {
+    padding-bottom: 80px;
     padding-top: 80px;
+    background-color: var(--B-g-color);
+  }
+  .for-tab {
+    margin: 0 auto;
+  }
+  .big-clock {
+    width: 235px;
+    margin-left: 20px;
+  }
+  .last-clock {
+    height: 350px;
+  }
+
+  .sale {
     font-weight: 600;
     font-size: 32px;
     line-height: 1.25;
     color: var(--Black);
-  }
-
-  .details{
-    padding-bottom: 80px;
   }
 
   .title-product {
@@ -46,12 +49,12 @@ section {
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
-    line-height: 1; 
+    line-height: 1;
     letter-spacing: -0.02em;
     color: var(--Black);
   }
 
-  .text{
+  .text {
     margin-bottom: 16px;
     font-style: normal;
     font-weight: 400;
@@ -61,7 +64,8 @@ section {
     color: var(--Price-color);
   }
 
-  .price-big{
+  .price-big {
+    font-family: 'Neue Montreal';
     margin-right: 8px;
     font-style: normal;
     font-weight: 400;
@@ -71,7 +75,7 @@ section {
     color: var(--Black);
   }
 
-  .price-line{
+  .price-line {
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -81,7 +85,7 @@ section {
     color: var(--Price-color);
   }
 
-  .text-title{
+  .text-title {
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -91,7 +95,7 @@ section {
     color: var(--Black);
   }
 
-  .text-first{
+  .text-first {
     padding-bottom: 40px;
     font-style: normal;
     font-weight: 400;
@@ -101,7 +105,7 @@ section {
     color: var(--Price-color);
   }
 
-  .text-second{
+  .text-second {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -120,7 +124,7 @@ section {
     top: 0;
     right: 0;
   }
-  
+
   .text-title {
     color: #141414;
     text-transform: uppercase;
@@ -140,23 +144,136 @@ section {
     background-color: #141414;
   }
 
-  .text-title{
+  .text-title {
     margin-bottom: 17px;
   }
-  
-  
-  
+  .photo-set {
+    width: 80px;
+  }
 }
 
- /* TABLET */
+/* TABLET */
 
- @media screen and (min-width:768px){
-   .container{
+@media screen and (min-width: 768px) {
+  .container {
     max-width: 768px;
-   }
-   
+    height: auto;
+  }
 
+  .for-tab {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
 
- }
+  .sale {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+  }
 
- /* END TABLET */
+  .title-product {
+    width: 572px;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 1.05;
+    letter-spacing: -0.02em;
+  }
+
+  .price {
+    margin-bottom: 40px;
+  }
+
+  .details {
+    width: 572px;
+  }
+
+  .description {
+    width: 572px;
+  }
+  .big-clock {
+    margin-left: 20px;
+    width: 406px;
+  }
+  .last-clock {
+    height: 614px;
+  }
+  .photo-set {
+    width: 146px;
+  }
+}
+
+/* END TABLET */
+
+/* DESKTOP */
+
+@media screen and (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+
+  /* .sale-section {
+    padding: 160px 0;
+  } */
+
+  .for-tab {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  .flex {
+    padding: 0;
+    margin: 0;
+  }
+
+  .sale {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+  }
+
+  .title-product {
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 1.05;
+    letter-spacing: -0.02em;
+    width: 369px;
+  }
+
+  .details {
+    padding-bottom: 0;
+    width: 369px;
+  }
+
+  .description {
+    width: 369px;
+  }
+
+  .desktop {
+    margin-left: 40px;
+  }
+
+  .big-clock {
+    margin-left: 20px;
+    width: 406px;
+  }
+  .last-clock {
+    height: 614px;
+  }
+  
+
+  .mini-photo{
+    width: 146px;
+    height: 146px;
+  }
+}
+
+/* ////// */

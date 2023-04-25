@@ -1,14 +1,12 @@
 <header class="header">
   <div class="main-container">
     <div class="header-nav">
-      <a class="header-logo-name" href="../index.html"
-        ><img
-          src="/img/logo.svg"
-          alt="logo"
-          width="14px"
-          height="14px"
-        />thewatchspot</a
-      >
+
+      <a class="header-logo-name" href="../index.html"><img class="logo-svg" src="/img/logo.svg" alt="logo"/>
+
+        <p class="logo-text">thewatchspot</p>
+      </a>
+
       <button class="burger-button" type="button" data-menu-open>
         <svg class="burger-icon" width="24" height="24">
           <use href="./img/icons.svg#icon-menu-mobile"></use>
@@ -17,14 +15,18 @@
     </div>
     <nav class="nav">
       <ul class="nav-list">
-        <li class="nav-items"><a href="#about-us">About us</a></li>
-        <li class="nav-items"><a href="#catalog">Catalog</a></li>
-        <li class="nav-items"><a href="#sale">Sale</a></li>
+        <li class="nav-items">
+          <a class="nav-link" href="#about-us">About us</a>
+        </li>
+        <li class="nav-items">
+          <a class="nav-link" href="#catalog">Catalog</a>
+        </li>
+        <li class="nav-items"><a class="nav-link" href="#sale">Sale</a></li>
       </ul>
     </nav>
-    <button class="header-button" type="button">
-      <a class="button-tel" href="tel:+380684439426">+380 (68) 443-94-26</a>
-    </button>
+    <a class="button-tel" href="tel:+380684439426">
+      <div class="header-button">+380 (68) 443-94-26</div></a
+    >
   </div>
   <div class="mob-menu is-hidden" data-menu>
     <div class="mob-menu-header">
@@ -32,8 +34,8 @@
         ><img
           src="/img/logo.svg"
           alt="logo"
-          width="14px"
-          height="14px"
+          width="14"
+          height="14"
         />thewatchspot</a
       >
       <button class="close-button" type="button">
@@ -45,9 +47,15 @@
     <div>
       <nav class="mob-menu-nav">
         <ul class="mob-nav-list list">
-          <li class="mob-nav-items"><a href="">About us</a></li>
-          <li class="mob-nav-items"><a href="">Catalog</a></li>
-          <li class="mob-nav-items"><a href="">Sale</a></li>
+          <li class="mob-nav-items">
+            <a href="#about-us" link1-menu-close>About us</a>
+          </li>
+          <li class="mob-nav-items">
+            <a href="#catalog" link2-menu-close>Catalog</a>
+          </li>
+          <li class="mob-nav-items">
+            <a href="#sale" link3-menu-close>Sale</a>
+          </li>
         </ul>
       </nav>
     </div>
