@@ -14,6 +14,10 @@
   margin-bottom: 40px;
 }
 
+.heart{
+  border: 1px solid white;
+}
+
 @media screen and (max-width: 374px) {
   .catalog-list-item {
     max-width: 336px;
@@ -159,6 +163,7 @@ margin-bottom: 14px;
 margin-left: auto;
 margin-bottom: 4px;
 fill: var(--Black);
+stroke: var(--hover-focus-color);
 transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
