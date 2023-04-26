@@ -30,12 +30,15 @@
     margin: 0 auto;
   }
   .big-clock {
-    width: 235px;
-    margin-left: 20px;
+    max-width: 235px;
   }
-  /* .last-clock {
-    height: 350px;
-  } */
+   .last-clock {
+    max-height: 350px;
+  } 
+
+  .flex{
+    justify-content: space-between;
+  }
 
   .sale {
     font-weight: 600;
@@ -148,7 +151,7 @@
     margin-bottom: 17px;
   }
   .photo-set {
-    width: 80px;
+    max-width: 80px;
   }
 }
 
@@ -183,6 +186,10 @@
     letter-spacing: -0.02em;
   }
 
+   .flex{
+    justify-content: space-between;
+   }
+
   .price {
     margin-bottom: 40px;
   }
@@ -195,14 +202,14 @@
     width: 572px;
   }
   .big-clock {
+    max-width: 406px;
     margin-left: 20px;
-    width: 406px;
   }
   .last-clock {
-    height: 614px;
+    max-height: 614px;
   }
   .photo-set {
-    width: 146px;
+    max-width: 146px;
   }
 }
 
