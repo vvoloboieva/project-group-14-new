@@ -13,6 +13,7 @@
 .price {
   display: flex;
   align-items: center;
+  margin-bottom: 40px;
 }
 
 @media screen and (min-width: 320px) {
