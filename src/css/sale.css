@@ -31,14 +31,13 @@
   }
   .big-clock {
     max-width: 235px;
+    margin-left: 20px;
   }
    .last-clock {
     max-height: 350px;
   } 
 
-  .flex{
-    justify-content: space-between;
-  }
+  
 
   .sale {
     font-weight: 600;
